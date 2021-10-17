@@ -4,6 +4,7 @@ import SubTodoForm from './SubTodoForm'
 
 const Todo = ({ todo: { id, title, description, sub_todos }, deleteTodo, deleteSubTodo }) =>
   <div>
+    <div>test</div>
     <h1>{ title }</h1>
     <p>{ description }<button onClick={ () => deleteTodo(id) }>Complete Todo</button></p>
     <ul>
